@@ -11,7 +11,7 @@ Projeto desenvolvido como **Tarefa Avaliativa** para a disciplina de **Computaç
 O sistema opera no modelo de **Revezamento Distribuído (Relay Chat)** com três papéis distintos:
 
 ```
-┌─────────────┐     bytes     ┌──────────────────┐     bytes     ┌─────────────┐
+┌─────────────┐     bytes    ┌──────────────────┐     bytes    ┌─────────────┐
 │  Cliente A  │ ──────────►  │     Servidor     │ ──────────►  │  Cliente B  │
 │  (Produtor) │              │  (Middleware /   │              │ (Consumidor)│
 └─────────────┘              │     Broker)      │              └─────────────┘
